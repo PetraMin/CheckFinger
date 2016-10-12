@@ -1,2 +1,4 @@
 # CheckFinger
 android check finger
+安卓指纹识别demo
+现在android提供了FingerprintManager、FingerprintManagerCompat、FingerprintManagerCompatApi23，FingerprintManager需要调整app的minsdk到23比较麻烦，使用的是v4包的FingerprintManagerCompat，对于minsdk要求的不是那么严格，并使用了KeyguardManager进行指纹设置跳转。由于指纹开放权限较少，只能判断指纹能否识别成功，局限比较大。
